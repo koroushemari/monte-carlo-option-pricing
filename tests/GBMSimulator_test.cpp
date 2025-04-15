@@ -48,7 +48,7 @@ BOOST_AUTO_TEST_CASE(ZeroVolatilityTest)
 {
     double initialPrice = 100.0;
     double drift = 0.05;
-    double volatility = 0.0; // Zero volatility
+    double volatility = 0.0;
     double timeStep = 1.0 / 252.0;
     int numSteps = 10;
 
